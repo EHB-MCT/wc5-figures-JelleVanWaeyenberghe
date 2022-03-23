@@ -23,10 +23,10 @@ class Rectangle extends Figure {
         <div class="result">
         <div class="figure rectangle" style="width: ${this._width}px; height: ${this._height} px;"></div>
              <div class="infoBox">
-             <h3>${this.name}</h3>
+             <h3>${this._name}</h3>
              <dl>
              <dt>Height</dt>
-             <dd>${this._height}</dd>
+             <dd>${this._height} px</dd>
 
              <dt>Width</dt>
              <dd>${this._width} px</dd>
